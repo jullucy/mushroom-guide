@@ -1,0 +1,7 @@
+title: "Mushroom Guide"
+description: "A Jekyll-powered site about mushrooms"
+baseurl: "/mushroom-guide"  # Set this to your repo name if using GitHub Pages
+url: "https://yourgithubusername.github.io"
+
+markdown: kramdown
+theme: minima

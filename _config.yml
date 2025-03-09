@@ -1,7 +1,12 @@
 title: "Mushroom Guide"
 description: "A Jekyll-powered site about mushrooms"
-baseurl: "/mushroom-guide" 
-url: "https://jullucy.github.io"
+baseurl: ""  # Set this if deploying to GitHub Pages
+url: "https://yourgithubusername.github.io"
+
+collections:
+  mushrooms:
+    output: true
+    permalink: /mushrooms/:name/
 
 markdown: kramdown
 theme: minima

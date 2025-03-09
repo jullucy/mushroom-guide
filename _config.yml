@@ -1,5 +1,5 @@
 title: "Mushroom Guide"
-description: "A Jekyll-powered site about mushrooms"
+description: "A Jekyll-powered site about mushrooms and recipes"
 baseurl: ""  # Set this if deploying to GitHub Pages
 url: "https://yourgithubusername.github.io"
 

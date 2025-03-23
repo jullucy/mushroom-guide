@@ -1,16 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="{{ site.baseurl }}/style.css">
+
+    <link href="{{ '/assets/css/style.css' | relative_url }}" rel="stylesheet">
 </head>
-<body>
-    <header>
-        <h1><a href="{{ site.baseurl }}/">Mushroom Guide</a></h1>
+<body class="bg-gray-100 text-gray-900">
+    <header class="bg-blue-600 text-white p-4 text-center">
+        <h1 class="text-2xl font-bold">{{ site.title }}</h1>
     </header>
-    <main>
+
+    <main class="container mx-auto p-6">
         {{ content }}
     </main>
+
+    <footer class="bg-gray-800 text-white text-center p-4 mt-6">
+        &copy; {{ site.time | date: "%Y" }} Mushroom Guide
+    </footer>
 </body>
 </html>
